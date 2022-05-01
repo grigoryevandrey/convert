@@ -1,0 +1,23 @@
+{
+  "name": "@grigoryevandrey/convert",
+  "bin": {
+    "convert": "./lib/index.js"
+  },
+  "scripts": {
+    "clean": "rimraf ./lib",
+    "build": "yarn clean && tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^16.13.2",
+    "rimraf": "^3.0.2",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "types": "./types",
+  "version": "1.0.0",
+  "description": "A cli tool to convert one currency into another using CoinMarketCap API",
+  "main": "index.js",
+  "author": "Grigoryev Andrey",
+  "license": "MIT"
+}
