@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf ./lib",
     "build": "npm run clean && tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
+    "format": "prettier --write \"bin/**/*.ts\""
   },
   "devDependencies": {
     "prettier": "^2.5.1",
