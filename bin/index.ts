@@ -4,7 +4,7 @@ import yargs from 'yargs/yargs';
 import { convert } from './convert';
 import { logMessage } from './logging';
 
-const processing = async () => {
+const processing = async (): Promise<void> => {
   const usage = '\nUsage: convert -f <from_ticker> -t <to_ticker> -a <amount>';
 
   const args = await yargs(process.argv.slice(2))

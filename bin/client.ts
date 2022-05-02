@@ -1,7 +1,8 @@
-import axios from 'axios';
+import axios, { AxiosRequestConfig } from 'axios';
 import { logError } from './logging';
+import { ObjectLiteral } from './types';
 
-export const retrieve = async (opts: any) => {
+export const retrieve = async (opts: AxiosRequestConfig): Promise<ObjectLiteral | null> => {
   try {
     const { data } = await axios(opts);
 
