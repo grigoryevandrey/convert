@@ -1,4 +1,5 @@
 {
+  "exclude": ["./lib", "types", "node_modules"],
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
@@ -6,8 +7,10 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es2020",
+    "target": "ES2020",
     "sourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
     "outDir": "./lib",
     "declarationDir": "./types",
     "baseUrl": "./",
