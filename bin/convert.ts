@@ -7,7 +7,7 @@ const extractPrice = (data: ObjectLiteral, toTicker: string): number => {
   return data.data[0].quote[toTicker.toUpperCase()].price;
 };
 
-export const convert = async (fromTicker: string, toTicker: string, amount: number): Promise<void | number> => {
+export const convert = async (fromTicker: string, toTicker: string, amount: number): Promise<number | void> => {
   if (!CMC_API_KEY) {
     logError(`Please, provide an api key using CMC_API_KEY env variable.`);
     return;

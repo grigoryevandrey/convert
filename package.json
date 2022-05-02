@@ -21,8 +21,12 @@
     "chalk": "^4.1.1",
     "yargs": "^17.4.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grigoryevandrey/convert.git"
+  },
   "types": "./types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cli tool to convert one currency into another using CoinMarketCap API",
   "main": "index.js",
   "author": "Grigoryev Andrey",
