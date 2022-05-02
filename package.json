@@ -30,5 +30,14 @@
   "description": "A cli tool to convert one currency into another using CoinMarketCap API",
   "main": "index.js",
   "author": "Grigoryev Andrey",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "coinmarketcap",
+    "cli",
+    "convert",
+    "crypto",
+    "crypto-convert",
+    "quotes",
+    "crypto-quotes"
+  ]
 }
