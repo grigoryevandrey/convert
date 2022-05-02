@@ -5,7 +5,7 @@ export const logMessage = (message: string): void => {
   console.log(
     boxen(chalk.green(message), {
       padding: 1,
-      borderStyle: BorderStyle.Classic,
+      borderStyle: BorderStyle.Round,
       borderColor: 'green',
     }),
   );
