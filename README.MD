@@ -5,7 +5,7 @@ Easy to use cli for fetching quotes from [CoinMarketCap](https://coinmarketcap.c
 ## Installation
 
 ```Bash
-npm i -g convert @grigoryevandrey/convert
+npm i -g @grigoryevandrey/convert
 ```
 
 To get help, use:
